@@ -1,0 +1,105 @@
+.bug{}
+header {
+	
+	font-family: 'Lobster', cursive; font-size:40pt;
+	position:inherit;
+	color:red;
+	width:20%;
+	padding: 0px 10px;
+	
+	
+}
+@keyframes listAnim{
+	0%{background-color:black;font-size:20pt}
+	50%{background-color:red;font-size:25pt}
+	100%{background-color:black;font-size:20pt}
+}
+
+section#dlindImage{
+	width:50%;
+	left:140px;
+	position:relative;
+}
+img {
+	width:100%;
+	height:auto;
+}
+ul#box li:hover{
+	animation-name:listAnim;
+	animation-duration:1s;
+	
+}
+h2{
+	text-align:center;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+#headnav{
+	background-color:black;
+	border:double 3pt white;
+	height:87px;
+}
+#container{
+	width:99%;
+	background-color:red;
+}
+section#borderLD{
+	position:static;
+	
+}
+.borderL{
+	border:double 3pt white;
+	background-color:black;
+	width:40%;
+	position:absolute;
+	
+}
+.borderR{
+	border:double 3pt white;
+	background-color:black;
+	width:40%;
+	float:right;
+	
+}
+
+ul#menu{
+	list-style-type:none;
+	margin:-4%;
+	padding:0;
+	overflow: hidden;
+	
+	
+}
+ul#menu li{
+	float:right;
+	width:15%
+}
+ul#menu li a{
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding: 14px 32px 20px 20px;
+	position:relative;
+	font-family: 'Lobster', cursive; font-size:20pt;
+	text-decoration: none;
+	border-radius:15px 15px 15px 15px;
+}
+ul#menu li a:hover{
+	animation-name:listAnim;
+	animation-duration:1s;
+}
+
+ul#box{
+	color:white;
+	font-family: 'Lobster', cursive; font-size:20pt;
+}
+p{
+	color:white;
+	font-family:"Times New Roman"; font-size: 16pt;
+	padding:5%
+}
+footer h2{
+	position:absolute;
+	
+	top:800px;
+}

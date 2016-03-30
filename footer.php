@@ -1,0 +1,1 @@
+<footer><h2>&copy; Copyright Dillon Lind All Rights Reserved 2016</h2></footer>
